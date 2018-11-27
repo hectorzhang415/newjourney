@@ -24,7 +24,7 @@
         <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
             <manifest>
                 <attribute name="Main-Class" value="${main-class}"/>
-		<!-- <attribute name="Class-path" value="./commons-codec-1.10.jar ./commons-collections4-4.1.jar ./poi-3.17.jar ./poi-ooxml-3.17.jar ./xmlbeans-2.6.0.jar ./curvesapi-1.04.jar./commons-logging-1.2 ./curvesapi-1.04.jar ./junit-4.12.jar ./log4j-1.2.17 ./poi-ooxml-schemas-3.17.jar"/>  -->
+		        <!-- <attribute name="Class-path" value="./commons-codec-1.10.jar ./commons-collections4-4.1.jar ./poi-3.17.jar ./poi-ooxml-3.17.jar ./xmlbeans-2.6.0.jar ./curvesapi-1.04.jar./commons-logging-1.2 ./curvesapi-1.04.jar ./junit-4.12.jar ./log4j-1.2.17 ./poi-ooxml-schemas-3.17.jar"/>  -->
             </manifest>
             <zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
 	</jar>
